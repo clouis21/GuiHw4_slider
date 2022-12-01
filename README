@@ -1,0 +1,12 @@
+Chad Louis                      Date:11/30/22
+
+HW4
+
+Program Description:
+Program take 4 input from user then generates a two dimentional table.
+The user can input the value in the input box by typing in the valuses.
+The sliders will move to indicate the inputed values.
+Blank values I dont beleive are handled correctly, otherwise other validations are handled
+
+
+Source of help: Google, class documnents.

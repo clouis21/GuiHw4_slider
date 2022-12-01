@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Range Slider</title>
+	<link rel="stylesheet" href="jQuery.UI.css" type="text/css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+	<form class="my-range-block" action="datadestination.php" method="POST" target="_blank" id="myform">
+
+	<div class="sliderText"><h2>Multiplication Table Generator, Version 1</h2></div>
+
+	<div id="slider-range" class="price-filter-range" name="rangeInput"></div>
+	<div class="num-display">
+	  <input type="number" min="-50" max="50" oninput="validity.valid||(value='');" id="input1" class="my-range-field" />
+		<input type="number" min="-50" max="50" oninput="validity.valid||(value='');" id="input2" class="my-range-field" />
+		<span id="input2-error-msg" class="error_form"></span>
+	</div>
+	
+	<div id="slider-rangeA" class="price-filter-range" name="rangeInputA"></div>
+	<div class="num-display">
+	  <input type="number" min="-50" max="50" oninput="validity.valid||(value='');" id="input3" class="my-range-field" />
+		<input type="number" min="-50" max="50" oninput="validity.valid||(value='');" id="input4" class="my-range-field" />
+		<span id="input4-error-msg" class="error_form"></span>
+	</div>
+<div>
+    <button type="button" id="open-tab" >Open Tab</button>
+</div>
+
+<div>
+	<button type="button" id="close-current-tab" >Close Curent Tab</button>
+</div>
+
+<div>
+	<button type="button" id="close-all-tabs" >Close All Tabs</button>
+</div>
+
+</form>
+
+
+	<div id="table-container">
+                
+		<table>
+			<tbody>
+				
+			</tbody>
+		</table>
+
+	</div>
+
+	<footer id="myInfo"> © 2022 Hw4 UML. Chad louis inc all rights reserved. Contact: chadlouis@chadLouis.com</footer>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+	<script src="jQuery.UI.js" type="text/javascript"></script>
+	<script src="slider-range.js" type="text/javascript"></script>
+
+</body>
+</html>

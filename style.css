@@ -1,0 +1,231 @@
+/* slider style */
+.error_form{
+	border: 2px white solid;
+	background-color: rgb(6, 6, 6);
+	color: brown;
+	height: 20px;
+	text-decoration: coral;
+	width: 40px;	
+	display:inline-block;
+	padding-right: 5%;
+	width: fit-content;
+}
+
+#open-tab{
+	width: 90px;
+	border-radius: 25%;
+	background-color: blue;
+	border: 5px rgb(29, 100, 215) solid;
+	margin: 10px;
+	color: white;
+	cursor: pointer;
+}
+
+#close-current-tab{
+	width: 90px;
+	border-radius: 25%;
+	background-color: blue;
+	border: 5px rgb(29, 100, 215) solid;
+	margin: 10px;
+	color: rgb(237, 22, 22);
+	cursor: pointer;
+}
+#close-all-tabs{
+	width: 90px;
+	border-radius: 25%;
+	background-color: blue;
+	border: 5px rgb(29, 100, 215) solid;
+	margin: 10px;
+	color: rgb(237, 22, 22);
+	cursor: pointer;
+}
+p{
+	margin-bottom: 0;
+	color: #f6f6f6;
+}
+#input1,#input2,#input3,#input4{
+	background-color: rgb(51, 117, 72);
+	font-size: large;
+	border: 8px solid black;
+	margin: 10px;
+	cursor: pointer;
+}
+.my-range-block {
+width: fit-content;
+background-color: rgb(78, 139, 25);
+padding: 42px;
+border: 22px rgb(29, 100, 215) solid;
+margin-left: 30px;
+}
+
+.sliderText{
+    margin-bottom:10px;
+    border-bottom: 2px solid red;
+    padding: 10px 0 10px 0px;
+    font-weight:bold;
+}
+
+.ui-slider-horizontal {
+    width: 500px;
+    height: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.ui-widget-header {
+    background: #6275adfb;
+}
+.ui-widget.ui-widget-content {
+    border: 2px solid #d4d3e3; background: rgb(237, 9, 164)
+}
+.ui-slider-handle.ui-corner-all.ui-state-default {
+    width: 30px;
+    height: 30px;
+    top: -12px;
+    border-radius: 100%;
+    background: white;
+    border: 1px solid #202020;
+}
+
+
+.my-range-field{
+    width: 50px;
+    height: 26px;
+    background-color:#202020; 
+    border: 1px solid #6e6666; 
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px; 
+    padding:5px;
+}
+/* table style */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(images.jfif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h2{
+	color: white;
+	margin-left: 30px;
+	font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.form-inner{
+	border: 3px rgb(75, 15, 195) solid;
+	background-color: black;
+	margin-bottom: 40px;
+
+}
+
+/* form div container removes excess space on right of form */
+#form-user{
+width: fit-content;
+background-color: rgb(78, 139, 25);
+padding: 42px;
+border: 22px rgb(29, 100, 215) solid;
+margin-left: 30px;
+}
+
+
+.error_form
+{
+	top: 12px;
+	color: rgb(216, 15, 15);
+    font-size: 15px;
+    font-family: Helvetica;
+} 
+
+
+label{
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+	color: #fff;
+}
+
+/* table styling section */
+
+::-webkit-scrollbar {
+	width: 0px;
+	background: transparent; 
+}
+
+
+
+/* Formats table and form simultaniously to create even spacing and set border */
+#formId, #table-container{
+  padding: 1rem;
+  vertical-align: middle;
+  margin: 12px;
+}
+
+/* Allignes table and input form side by side and remove gap between cells.
+This also sets table max height and prevents over flow of table when values get excerssively too large */
+table{
+  display: flex;
+  border-collapse: collapse;
+  text-align: center;
+	flex-wrap: wrap;
+  height: 400px;
+  overflow: auto;
+
+}
+
+/* all rows rows styling*/
+table tr{
+	border: 2px black solid;
+}
+
+table td{
+border: 2px black solid;
+color: white;
+
+}
+
+.wrapper{
+  width: 100%;
+}
+thead{
+  color: white;
+}
+
+/* Highlights alternating rows with even values */
+tr:nth-child(even) {  
+   background-color:#51b39a;   
+} 
+
+/* far left column prevent from scrolling and style */
+td:nth-child(1) {  background-color: black;
+	color: red;
+	position: sticky;
+  width: 2em;
+  left: 0;
+  top: auto;
+	border: 5px rgb(229, 17, 84) solid;
+
+}
+
+/* top column prevent from scrolling and style */
+ tr:nth-child(1){
+	background-color:rgb(4, 4, 4) ;
+	position: sticky;
+  width: 2em;
+	color: red;
+  top: 0px;
+	left: 0px;
+	border: 5px rgb(229, 17, 84) solid;
+ }
+
+ /* footer at bottom right of page style and positioning */
+#myInfo{ 
+  /* border: 1px black solid; */
+  /* position: absolute; */
+  /* bottom: -50px; */
+  right: 16%;
+  color: white;
+}
